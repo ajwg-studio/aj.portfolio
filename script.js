@@ -48,6 +48,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Start typing effect
   typeEffect();
 
+  // Load projects from JSON
+  loadProjects();
+
   // Load and display projects from JSON
   async function loadProjects() {
     try {
