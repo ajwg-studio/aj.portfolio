@@ -196,7 +196,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(17,17,17,0.7) 0%, rgba(17,17,17,0.9) 100%), url('https://placehold.co/1920x1080/111/00b894?text=Neon+Tech+Background') center/cover no-repeat;
+  background: linear-gradient(135deg, rgba(17,17,17,0.7) 0%, rgba(17,17,17,0.9) 100%), url('assets/background-portfolio.png') center/cover no-repeat;
   overflow: hidden;
 }
 
