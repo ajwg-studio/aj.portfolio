@@ -252,6 +252,11 @@ a:hover {
 /* Section Background Base */
 .section {
   background: linear-gradient(135deg, rgba(10,10,10,0.7) 0%, rgba(15,15,25,0.8) 100%);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 /* About Section */
