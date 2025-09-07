@@ -6,12 +6,12 @@
   box-sizing: border-box;
 }
 
+/* Fixed Background for Entire Page */
 body {
-  font-family: 'Inter', sans-serif;
-  background-color: #111;
-  color: #eee;
-  line-height: 1.6;
-  overflow-x: hidden;
+  background: url('https://placehold.co/1920x1080/111/00b894?text=Neon+Tech+Background') center/cover fixed no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -128,6 +128,7 @@ a:hover {
 .logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .logo-img {
@@ -136,7 +137,16 @@ a:hover {
   transition: transform 0.3s ease;
 }
 
-.logo-img:hover {
+.logo-text {
+  color: #00b894;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-left: 10px;
+  text-shadow: 0 0 5px rgba(0, 184, 148, 0.3);
+}
+
+.logo-img:hover, .logo-text:hover {
   transform: scale(1.05);
 }
 
@@ -190,14 +200,26 @@ a:hover {
 }
 
 /* Hero Section */
+/* Remove background from hero, make it transparent */
 .hero {
+  background: rgba(17, 17, 17, 0.7);
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background: linear-gradient(135deg, rgba(17,17,17,0.7) 0%, rgba(17,17,17,0.9) 100%), url('assets/background-portfolio.png') center/cover no-repeat;
   overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(0, 184, 148, 0.1) 0%, rgba(0, 184, 148, 0) 70%);
+  pointer-events: none;
 }
 
 .hero-overlay {
