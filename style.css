@@ -266,7 +266,7 @@ a:hover {
 
 /* About Section */
 .about {
-  background-color: #1a1a1a;
+  background-color: transparent;
   padding: 100px 0;
 }
 
@@ -322,7 +322,7 @@ a:hover {
 
 /* Portfolio Section */
 .portfolio {
-  background-color: #111;
+  background-color: transparent;
   padding: 100px 0;
   position: relative;
   overflow: hidden;
@@ -560,7 +560,7 @@ a:hover {
 
 /* Contact Section */
 .contact {
-  background-color: #1a1a1a;
+  background-color: transparent;
   padding: 100px 0;
 }
 
