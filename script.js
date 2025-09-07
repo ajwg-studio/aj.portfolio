@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
     try {
       const response = await fetch('projects.json');
       const data = await response.json();
-      displayProjects(data.projects);
+      displayProjects(data);
     } catch (error) {
       console.error('Error loading projects:', error);
     }
