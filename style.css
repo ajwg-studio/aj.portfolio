@@ -379,32 +379,28 @@ a:hover {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(transparent, rgba(0, 0, 0, 0.9));
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.85));
   padding: 1.8rem 1.5rem;
-  color: white;
-  opacity: 1;
-  transform: translateY(0);
+  color: white; /* Ensure text is white */
+  opacity: 0;
+  transform: translateY(30px);
   transition: all 0.3s ease;
   z-index: 2;
 }
 
-.portfolio-item:hover .portfolio-overlay {
-  opacity: 1;
-  transform: translateY(0);
-  background: linear-gradient(transparent, rgba(0, 184, 148, 0.9));
-}
-
 .portfolio-overlay h3 {
   margin: 0;
-  color: white;
+  color: white; /* Force white */
   font-size: 1.4rem;
   margin-bottom: 0.3rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .portfolio-overlay p {
   margin: 0;
-  color: #ccc;
+  color: #ddd; /* Light gray, not black */
   font-size: 0.95rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* Modal */
@@ -423,6 +419,9 @@ a:hover {
 
 .modal.show {
   opacity: 1;
+  display: flex; /* Or keep as block */
+  justify-content: center;
+  align-items: center;
 }
 
 .modal-content {
@@ -431,6 +430,7 @@ a:hover {
   width: 90%;
   max-width: 1100px;
   background-color: #1a1a1a;
+  color: white; /* Force white text */
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 40px rgba(0, 184, 148, 0.2);
