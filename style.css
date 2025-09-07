@@ -8,7 +8,7 @@
 
 /* Fixed Background for Entire Page */
 body {
-  background: url('https://placehold.co/1920x1080/111/00b894?text=Neon+Tech+Background') center/cover fixed no-repeat;
+  background: "assets/background-portfolio.png", center/cover fixed no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
