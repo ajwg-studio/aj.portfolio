@@ -41,16 +41,16 @@
       },
       {
         "section": "Impact",
-        "text": "Projected brand recognition increase: +40% through consistent, distinct visuals. Website redesign estimated to improve clarity of product categories and reduce bounce rate by 25–30%. Social engagement projected to double due to cohesive, bold visuals. Fictional testimonial: \"The new identity finally captures who we are: modern, sustainable, and human. Our customers immediately noticed the change and responded with excitement.\" – Lumen Co-Founder",
+        "text": "Projected brand recognition increase: +40% through consistent, distinct visuals. Website redesign estimated to improve clarity of product categories and reduce bounce rate by 25–30%. Social engagement projected to double due to cohesive, bold visuals. Testimonial: \"The new identity finally captures who we are: modern, sustainable, and human. Our customers immediately noticed the change and responded with excitement.\" – Lumen Co-Founder",
         "image": "assets/lumen-impact.jpg"
       },
       {
         "section": "Reflection",
-        "text": "This project reinforced the importance of balancing strategy with aesthetics—avoiding clichés while still signaling sustainability. With more time, I would extend the system into motion design for social reels and product demo videos to strengthen storytelling.",
+        "text": "This project reinforced the importance of balancing strategy with aesthetics, avoiding clichés while still signaling sustainability. With more time, I would extend the system into motion design for social reels and product demo videos to strengthen storytelling.",
         "video": "assets/lumen-reflection.mp4"
       }
     ],
-    "tech": ["Illustrator", "Photoshop", "Figma", "InDesign"],
+    "tech": ["Illustrator", "Photoshop", "UI/UX", "CapCut"],
     "demoUrl": "#",
     "sourceUrl": "#"
   },
@@ -71,23 +71,23 @@
       },
       {
         "section": "Research",
-        "text": "User personas highlighted Gen Z listeners seeking immersive aesthetics and indie creators resonating with experimental visuals. Surveys showed demand for authenticity and uniqueness. Competitor analysis revealed most music labels relied on flat, minimal branding—leaving room for bold AI-driven visuals. Moodboard keywords: Glitch, Ethereal, Algorithmic Beauty, Fluid Motion.",
+        "text": "User personas highlighted Gen Z listeners seeking immersive aesthetics and indie creators resonating with experimental visuals. Surveys showed demand for authenticity and uniqueness. Competitor analysis revealed most music labels relied on flat, minimal branding, leaving room for bold AI-driven visuals. Moodboard keywords: Glitch, Ethereal, Algorithmic Beauty, Fluid Motion.",
         "image": "assets/fixoff-research.jpg"
       },
       {
         "section": "Design Goals",
         "text": "1. Establish a recognizable brand identity blending human and machine aesthetics.\n2. Build a seamless digital journey across web and mobile.\n3. Align aesthetics with Gen Z's love of AI-generated visuals.\n4. Position FixOFF as a cultural entertainment brand, not just a music producer.",
-        "image": "assets/project5-goals.jpg"
+        "image": "assets/fixoff-goals.jpg"
       },
       {
         "section": "Process",
-        "text": "Started with sketches and AI-generated concepts (MidJourney, Stable Diffusion). Explored multiple logo directions blending soundwaves and power symbols. Typography: futuristic sans-serif with subtle serif accents. Colors: electric violet, deep cyber blue, gradient neutrals—balancing digital energy and warmth. Prototypes included interactive web concepts, mobile player with generative animations, and evolving AI-driven album packaging.",
+        "text": "Started with sketches and AI-generated concepts (MidJourney, Stable Diffusion). Explored multiple logo directions blending soundwaves and power symbols. Typography: futuristic sans-serif with subtle serif accents. Colors: electric violet, deep cyber blue, gradient neutrals, balancing digital energy and warmth. Prototypes included interactive web concepts, mobile player with generative animations, and evolving AI-driven album packaging.",
         "image": "assets/fixoff-process.jpg"
       },
       {
         "section": "Applications",
         "text": "Final designs applied across web, mobile app UI, vinyl/digital packaging, and social media branding. Website featured adaptive AI visuals responding to music moods. Mobile app offered clean playback with generative waveforms. Social templates designed for TikTok/Instagram looping content.",
-        "image": "assets/fixoff-applications.jpg"
+        "image": "assets/fixoff-application.jpg"
       },
       {
         "section": "Mockups",
@@ -96,7 +96,7 @@
       },
       {
         "section": "Impact",
-        "text": "Projected outcomes included +30% increase in engagement, stronger brand recognition on social platforms, and an estimated 25% reduction in website bounce rate. Fictional testimonial: \"The new branding finally matches our sound. It feels alive, like our music. Fans are tagging us more than ever.\"",
+        "text": "Projected outcomes included +30% increase in engagement, stronger brand recognition on social platforms, and an estimated 25% reduction in website bounce rate. Testimonial: \"The new branding finally matches our sound. It feels alive, like our music. Fans are tagging us more than ever.\"",
         "image": "assets/fixoff-impact.jpg"
       },
       {
@@ -105,7 +105,7 @@
         "image": "assets/fixoff-reflection.gif"
       }
     ],
-    "tech": ["MidJourney", "Stable Diffusion", "Figma", "After Effects"],
+    "tech": ["AI Tools", "Photoshop", "UI/UX", "After Effects"],
     "demoUrl": "#",
     "sourceUrl": "#"
   },
@@ -142,7 +142,7 @@
       {
         "section": "Applications",
         "text": "Final applications included Instagram carousel sets, TikTok reels, story templates, landing page mockups with shop integration, and packaging prototypes with distinct color codes per blend.",
-        "image": "assets/auroratea-applications.jpg"
+        "image": "assets/auroratea-social.jpg"
       },
       {
         "section": "Deliverables",
@@ -151,7 +151,7 @@
       },
       {
         "section": "Impact",
-        "text": "Hypothetically, the redesign would increase Instagram engagement by 35%, reduce landing page bounce rate by 25%, and boost shelf visibility by 40%. Fictional testimonial: 'The campaign gave Aurora Tea Co. a new digital life. Our customers now see us as part of their daily ritual.'",
+        "text": "Hypothetically, the redesign would increase Instagram engagement by 35%, reduce landing page bounce rate by 25%, and boost shelf visibility by 40%.",
         "image": "assets/auroratea-impact.jpg"
       },
       {
@@ -160,7 +160,7 @@
         "image": "assets/auroratea-reflection.jpg"
       }
     ],
-    "tech": ["Photoshop", "Illustrator", "Figma", "After Effects"],
+    "tech": ["Photoshop", "Illustrator", "UI/UX", "After Effects"],
     "demoUrl": "#",
     "sourceUrl": "#"
   },
@@ -191,7 +191,7 @@
       },
       {
         "section": "Process",
-        "text": "The design process began with sketches and wireframes exploring dashboard layouts. Two dashboard versions were tested—compact cards vs. full-width sections. Usability testing favored the compact card design. Typography chosen: Inter for readability. Colors: Teal (#0ABAB5) for trust, Coral (#FF6B6B) for CTAs. Icons were redesigned with rounded corners for a friendly feel.",
+        "text": "The design process began with sketches and wireframes exploring dashboard layouts. Two dashboard versions were tested; compact cards vs. full-width sections. Usability testing favored the compact card design. Typography chosen: Inter for readability. Colors: Teal (#0ABAB5) for trust, Coral (#FF6B6B) for CTAs. Icons were redesigned with rounded corners for a friendly feel.",
         "image": "assets/flowbank-process.jpg"
       },
       {
@@ -206,7 +206,7 @@
       },
       {
         "section": "Impact",
-        "text": "Hypothetical results: app abandonment reduced by 30%, savings goal usage increased by 45%, and user satisfaction rose from 3.2 to 4.5 stars. Fictional CEO testimonial: \"Vyern's redesign gave our app a fresh look and made it far easier for our customers to manage their finances. We saw immediate improvements in both engagement and retention.\"",
+        "text": "Hypothetical results: app abandonment reduced by 30%, savings goal usage increased by 45%, and user satisfaction rose from 3.2 to 4.5 stars.",
         "image": "assets/flowbank-impact.jpg"
       },
       {
@@ -215,18 +215,18 @@
         "image": "assets/flowbank-reflection.jpg"
       }
     ],
-    "tech": ["Figma", "Adobe Illustrator", "UserTesting", "Prototyping"],
+    "tech": ["Figma", "UI/UX", "UserTesting", "Prototyping"],
     "demoUrl": "#",
     "sourceUrl": "#"
   },
   {
     "id": "modal5",
-    "title": "Pulsewave Motion Graphics Intro",
+    "title": "Pulsewave Festival Motion Graphics",
     "coverImage": "assets/companyname-cover.jpg",
     "frames": [
       {
         "section": "Overview",
-        "text": "Pulsewave Music Festival is a fictional annual electronic music festival attracting 20,000+ attendees. The scope of this project was to design and animate a short event intro video, motion logo, and teaser clips for social media, showcasing bold, futuristic motion graphics that match the brand's high-energy identity.",
+        "text": "Pulsewave Music Festival is an annual electronic music festival attracting 20,000+ attendees. The scope of this project was to design and animate a short event intro video, motion logo, and teaser clips for social media, showcasing bold, futuristic motion graphics that match the brand's high-energy identity.",
         "image": "assets/companyname-overview.jpg"
       },
       {
@@ -261,7 +261,7 @@
       },
       {
         "section": "Impact",
-        "text": "Hypothetically, teaser views increased by +65% compared to the previous year. Audience surveys reported 82% felt the intro made the festival feel more professional and immersive. Fictional testimonial: \"The motion graphics set the tone instantly—our audience went wild when the intro dropped. It gave us the high-tech vibe we wanted.\"",
+        "text": "Hypothetically, teaser views increased by +65% compared to the previous year. Audience surveys reported 82% felt the intro made the festival feel more professional and immersive.",
         "image": "assets/companyname-impact.jpg"
       },
       {
@@ -281,7 +281,7 @@
     "frames": [
       {
         "section": "Overview",
-        "text": "Crochet by Alia Fazil is a personal handmade crochet brand specializing in cozy, handcrafted products. The project involved developing a complete brand identity system—logo, color palette, typography, packaging, and digital presence—to help the brand scale its visual storytelling and build recognition.",
+        "text": "Crochet by Alia Fazil is a personal handmade crochet brand specializing in cozy, handcrafted products. The project involved developing a complete brand identity system; logo, color palette, typography, packaging, and digital presence, to help the brand scale its visual storytelling and build recognition.",
         "image": "assets/crochetbyaliafazil-overview.jpg"
       },
       {
@@ -325,8 +325,9 @@
         "image": "assets/crochetbyaliafazil-reflection.jpg"
       }
     ],
-    "tech": ["Adobe Illustrator", "Photoshop", "Canva", "After Effects (optional)", "AI Tools for Inspiration"],
+    "tech": ["Adobe Illustrator", "Photoshop", "Canva", "AI Tools for Inspiration"],
     "demoUrl": "#",
     "sourceUrl": "#"
   }
+
 ]
