@@ -55,10 +55,17 @@ document.addEventListener('DOMContentLoaded', function() {
   async function loadProjects() {
     try {
       const response = await fetch('projects.json');
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
       const data = await response.json();
+      console.log('Projects loaded successfully:', data.length + ' projects');
       displayProjects(data);
     } catch (error) {
       console.error('Error loading projects:', error);
+      // Show fallback message
+      const portfolioGrid = document.querySelector('.portfolio-grid');
+      portfolioGrid.innerHTML = '<p style="text-align: center; color: #ccc; grid-column: 1/-1;">Projects are currently being loaded. Please check back soon!</p>';
     }
   }
 
@@ -72,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
       projectItem.setAttribute('data-modal', project.id);
       
       projectItem.innerHTML = `
-        <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy">
+        <img src="${project.coverImage}" alt="${project.title}" class="portfolio-img" loading="lazy" onerror="this.src='https://via.placeholder.com/400x250/1546C7/ffffff?text=${encodeURIComponent(project.title)}'">
         <div class="portfolio-overlay">
           <h3>${project.title}</h3>
           <p>${project.tech.join(' • ')}</p>
@@ -98,8 +105,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let framesHtml = '';
     project.frames.forEach((frame, index) => {
       const mediaHtml = frame.video 
-        ? `<video src="${frame.video}" class="modal-img" controls></video>`
-        : `<img src="${frame.image}" alt="${frame.section}" class="modal-img">`;
+        ? `<video src="${frame.video}" class="modal-img" controls onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"></video><img src="https://via.placeholder.com/800x400/1546C7/ffffff?text=Video+Not+Available" style="display:none;" class="modal-img">`
+        : `<img src="${frame.image}" alt="${frame.section}" class="modal-img" onclick="window.open(this.src, '_blank')" onerror="this.src='https://via.placeholder.com/800x400/1546C7/ffffff?text=${encodeURIComponent(frame.section)}'" title="Click to view full size">`;
       
       framesHtml += `
         <div class="frame-section" ${index > 0 ? 'style="display: none;"' : ''}>
