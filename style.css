@@ -414,12 +414,14 @@ a:hover {
 
 .modal-content {
   position: relative;
-  margin: 5% auto;
+  margin: 2% auto;
   width: 90%;
   max-width: 1000px;
+  max-height: 90vh;
   background-color: #1a1a1a;
   border-radius: 10px;
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   box-shadow: 0 20px 40px rgba(21, 70, 199, 0.3);
   opacity: 0;
   transform: translateY(30px);
@@ -534,6 +536,25 @@ a:hover {
 .close:hover {
   color: white;
   background: linear-gradient(135deg, #1546C7 0%, #EC3499 100%);
+}
+
+/* Custom Scrollbar for Modal */
+.modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: rgba(21, 70, 199, 0.1);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #1546C7 0%, #EC3499 100%);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #0d3aa3 0%, #d91a85 100%);
 }
 
 /* Contact Section */
@@ -810,6 +831,21 @@ a:hover {
   }
   .footer-social {
     justify-content: center;
+  }
+  /* Modal responsive adjustments */
+  .modal-content {
+    margin: 1% auto;
+    width: 95%;
+    max-height: 95vh;
+  }
+  .modal-text {
+    padding: 1.5rem;
+  }
+  .modal-footer {
+    padding: 1rem 1.5rem;
+  }
+  .modal-navigation {
+    padding: 1rem 1.5rem;
   }
 }
 
