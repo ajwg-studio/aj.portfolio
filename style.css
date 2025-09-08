@@ -607,8 +607,8 @@ a:hover {
 }
 
 .contact-form {
-  background: linear-gradient(135deg, rgba(26, 26, 26, 0.6) 0%, rgba(20, 20, 35, 0.7) 100%);
-  url('assets/background-portfolio.png');
+  background: linear-gradient(135deg, rgba(26, 26, 26, 0.6) 0%, rgba(20, 20, 35, 0.7) 100%),
+              url('assets/background-portfolio.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
