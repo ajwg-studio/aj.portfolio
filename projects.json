@@ -77,7 +77,7 @@
       {
         "section": "Design Goals",
         "text": "1. Establish a recognizable brand identity blending human and machine aesthetics.\n2. Build a seamless digital journey across web and mobile.\n3. Align aesthetics with Gen Z's love of AI-generated visuals.\n4. Position FixOFF as a cultural entertainment brand, not just a music producer.",
-        "image": "assets/fixoff-goals.jpg"
+        "video": "assets/fixoff-logo.mp4"
       },
       {
         "section": "Process",
@@ -102,7 +102,7 @@
       {
         "section": "Reflection",
         "text": "This project pushed me to explore AI not just as a tool, but as a creative partner. I learned to harness generative unpredictability while building a consistent system. With more time, I'd explore real-time generative visuals that shift with the music being played.",
-        "image": "assets/fixoff-reflection.gif"
+        "gif": "assets/fixoff-reflection.gif"
       }
     ],
     "tech": ["AI Tools", "Photoshop", "UI/UX", "After Effects"],
@@ -302,7 +302,7 @@
       {
         "section": "Process",
         "text": "The design process started with sketching logo concepts inspired by loops of yarn. After digitizing, I refined the mark into a minimal line-based logo that balanced elegance with a handmade feel. Simultaneously, I explored color palettes, typography pairings, and mockups for packaging and social media.",
-        "image": "assets/crochetbyaliafazil-social.jpg"
+        "image": "assets/crochetbyaliafazil-before.jpg"
       },
       {
         "section": "Applications",
@@ -331,3 +331,4 @@
   }
 
 ]
+
